@@ -10,13 +10,20 @@
 The first version contains data from two sources.
 
 1. [en_te_wiki_titles](https://github.com/notAI-tech/Datasets/releases/download/En-Te_Transliteration/v1.en_te_wiki_titles.txt):
-  contains 13811 word en-te pairs, generated from Wikipedia by comparing titles of parallel articles.
+
+    contains 13811 word en-te pairs, generated from Wikipedia by comparing titles of parallel articles.
 
 
-2. [ni_bondha_comments](https://github.com/notAI-tech/Datasets/edit/master/En-Te_Transliteration/README.md):
-  contains * word en-te pairs. The english versions of telugu words are obtained from the subreddit [r/Ni_Bondha](https://www.reddit.com/r/Ni_Bondha/).
-  The corresponding telugu words are obtained by ranking transliterations of the subreddit comments from multiple models and APIs,
+2. [ni_bondha_comments](https://github.com/notAI-tech/Datasets/releases/download/En-Te_Transliteration/v1.ni_bondha_comment_words.txt):
+
+    contains 24757 word en-te pairs.
+    
+    The english versions of telugu words are obtained from the subreddit [r/Ni_Bondha](https://www.reddit.com/r/Ni_Bondha/).
+    
+    The corresponding telugu words are obtained by ranking transliterations of the subreddit comments from multiple models and APIs,
   using a [flair](https://github.com/zalandoresearch/flair) based character lm trained on Telugu text.
+  
+    Please note that english words are not lower-cased in this data. Since the english words are human written, we decided to retain the capitalization information in this release. Only punctuation was removed.
 
 
 # Our model:
