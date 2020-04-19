@@ -4,7 +4,7 @@
 2. Telugu is written using English alphabet on most social media posts.
 3. This project aims to help people working on NLP for Telugu language, by providing a good dataset and baseline models.
 
-# Description:
+# Links and Description:
 
 **V1:**
 The first version contains data from two sources.
@@ -15,7 +15,7 @@ The first version contains data from two sources.
 
 2. [ni_bondha_comments](https://github.com/notAI-tech/Datasets/edit/master/En-Te_Transliteration/README.md):
   contains * word en-te pairs. The english versions of telugu words are obtained from the subreddit [r/Ni_Bondha](https://www.reddit.com/r/Ni_Bondha/).
-  The corresponding telugu words are obtained by ranking transliterations of the subreddit comments from various modules and commercial APIs,
+  The corresponding telugu words are obtained by ranking transliterations of the subreddit comments from multiple models and APIs,
   using a [flair](https://github.com/zalandoresearch/flair) based character lm trained on Telugu text.
 
 
