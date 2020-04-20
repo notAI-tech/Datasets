@@ -4,4 +4,4 @@
 </p>
 
 
-Each directory in the repo is a different dataset. Versions and baseline models can be found in these directories.
+Each directory in the repo is a different dataset. Versions and baseline models are maintained in these directories.
