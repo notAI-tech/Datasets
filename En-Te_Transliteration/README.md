@@ -27,4 +27,4 @@ The first version contains data from two sources.
 
 
 # Our model:
-  https://github.com/notAI-tech/DeepTranslit/ now supported Hindi, Telugu, Malayalam, Marathi, Kannada, Tamil
+  https://github.com/notAI-tech/DeepTranslit/ now supports Hindi, Telugu, Malayalam, Marathi, Kannada, Tamil
